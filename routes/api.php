@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Http\Request;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,10 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
- // Answer to the quetion- 03
-
- Route::get('/api/endpoint', function (Request $request) {
-    $page = $request->input('page', null);
-    return $page;
-   
-});
+ 
